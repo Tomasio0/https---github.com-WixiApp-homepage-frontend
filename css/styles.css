@@ -1,0 +1,355 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
+
+:root {
+    --bg-color: #2b2f42;
+    --accent: #8351ef;
+}
+
+body h1, h2, h3, h4, h5, h6, p{
+    font-family: "Nunito Sans", sans-serif !important;
+}
+
+
+
+.button-span{
+    font-size:1.5rem;
+}
+
+@media (max-width:768px){
+
+    .btn-primary{
+        padding: 1rem 1.7rem;
+    }
+
+    .button-span{
+        font-size:1rem;
+    }
+}
+/*
+.header-nav .nav-container{
+    margin-top:5%;
+}
+
+.header-nav .navbar {
+    background-color: #353a50;
+}
+.header-nav .header-bubble {
+    background-color: #353a50;
+    border-radius: 20px;
+    padding:9px 30px;
+    display: inline-block;
+}
+
+
+.header-nav .navbar-nav .nav-item {
+    color: white !important;
+    margin-right: 20px;
+}
+
+.header-nav .navbar-nav .nav-link {
+    font-size:1.2rem;
+    color: white !important;
+}
+.header-nav .navbar-nav .nav-link:last-child {
+    margin-right: 0;
+}
+
+@media (max-width:768px){
+
+    .header-nav .header-bubble{
+        background:none;
+        border:none;
+    }
+
+    .header-nav .navbar{
+        background:none;
+    }
+
+    .header-nav .navbar-nav .nav-item {
+        color: white !important;
+        margin-right: 5px;
+    }
+    
+    
+    .header-nav .navbar-nav .nav-link {
+        font-size:0.8rem;
+        color: white !important;
+    }
+}
+
+*/
+
+.header-nav .navbar-nav {
+    background-color: #353a50;
+    padding:1rem 2rem;
+    border: #353a50 1px solid;
+    border-radius: 20px;
+}
+
+.header-nav .navbar-nav .nav-item {
+    color: white;
+    margin-right: 20px;
+}
+
+.header-nav .navbar-nav .nav-link {
+    font-size:1.3rem;
+    color: #fff;
+}
+
+.header-nav .navbar-nav .nav-link:hover {
+    color: rgb(222, 222, 222);
+}
+
+.header-nav .navbar-nav .nav-link:last-child {
+    margin-right: 0;
+}
+
+.header-nav .navbar-toggler{
+    border:0;
+    outline:0;
+}
+
+.header-nav .navbar-toggler i{
+    color:white;
+    font-size:2rem;
+    border:0;
+    outline:0;
+}
+
+@media (max-width:768px){
+    .header-nav .navbar-nav {
+        background: none;
+        border: 0;
+        text-align:right;
+        padding:0;
+    }
+
+
+
+}
+
+.adwall-bubble{
+    background-color:#353a50;
+    border: 1px solid #353a50;
+    border-radius: 0 80px 0 80px;
+    width:100%;
+    height:auto;
+}
+
+.adwall-bubble img{
+    max-width: 100%;
+    height: 100%;
+    object-fit:contain;
+    margin:0 auto;
+    display:flex;
+    justify-content: center;
+    padding: 4rem 12rem;
+}
+
+@media (max-width:768px){
+
+    .adwall-bubble{
+        border-radius: 0 40px 0 40px;
+    }
+
+    .adwall-bubble img{
+        max-width: 100%;
+        height: 100%;
+        object-fit:contain;
+        margin:0 auto;
+        display:flex;
+        justify-content: center;
+        padding: 2rem;
+    }
+}
+
+.tutorial-bubble{
+    background-color:#353a50;
+    border: 1px solid #353a50;
+    border-radius: 0 80px 0 80px;
+    width:100%;
+}
+
+.tutorial-bubble .img-container{
+    width:250px;
+    height:250px;
+    margin:0 auto;
+}
+
+.tutorial-bubble .img-container img{
+    max-width: 100%;
+    height: 100%;
+    object-fit:contain;
+    margin:0 auto;
+    display:flex;
+    justify-content: center;
+}
+
+@media (max-width:1400px) and (min-width:769px){
+    .tutorial-bubble{
+        padding: 0 3rem;
+    }
+}
+
+@media (max-width:768px){
+
+    .tutorial-bubble .img-container{
+        width:200px;
+        height:200px;
+        margin:0 auto;
+    }
+
+
+    .tutorial-bubble{
+        border-radius: 0 40px 0 40px;
+    }
+}
+
+.social-icons{
+    margin-bottom:1.5rem;
+}
+
+.social-icon-container{
+    width: 80px;
+    height:auto;
+    margin-right:2rem;
+    display:flex;
+    flex-direction: column;
+    justify-content:center;
+}
+
+.social-icon-container a{
+    padding: 5px;
+}
+
+.social-icon-container img{
+    max-width: 80%;
+    height: 100%;
+    object-fit:contain;
+    margin:0 auto;
+    display:flex;
+    justify-content: center;
+}
+
+@media (max-width:768px){
+    .social-icon-container{
+        margin-right:1.5rem;
+    }
+}
+
+.footer{
+    background-color:#1f2334;
+}
+
+.footer .navbar-nav .nav-item {
+    color: white;
+    margin-right: 20px;
+}
+
+.footer .navbar-nav .nav-link {
+    font-size:1.2rem;
+    color: white;
+}
+
+.footer .navbar-nav .nav-link:hover{
+    color: rgb(222, 222, 222);
+}
+
+@media (max-width:768px){
+    .footer-logo{
+        margin-left:-5px;
+    }
+}
+
+:root {
+    --color-primary: #8b54ff;
+    --color-secondary: #5ddee6;
+    --border: 4px;
+    --font-size: 1.3rem;
+    --height: calc(var(--font-size) * 3);
+  }
+  
+  *,
+  *:before,
+  *:after {
+    box-sizing: border-box;
+  }
+  
+  .button--secondary {
+    font-size: var(--font-size);
+    text-decoration: none;
+    font-weight: bold;
+    color: #fff;
+    display: inline-flex;
+    position: relative;
+    padding: 0 2em;
+    background-image: linear-gradient(90deg, var(--color-primary) 0%, var(--color-secondary) 50%);
+    height: var(--height);
+    border-radius: calc(var(--height) / 2);
+    align-items: center;
+    background-size: 200% 100%;
+    transition: background-position 0.2s ease-out;
+    background-position: 0 0;
+  }
+  
+  .button--secondary:hover {
+    color: #fff;
+    background-position: 100% 0;
+  }
+  
+  .button--secondary:before {
+    content: "";
+    position: absolute;
+    left: var(--border);
+    top: var(--border);
+    right: var(--border);
+    bottom: var(--border);
+    background: var(--bg-color);
+    border-radius: calc(var(--height) / 2);
+    transition: background 0.2s ease-out;
+  }
+  
+  .button--secondary > span {
+    position: relative;
+    z-index: 2;
+    background: linear-gradient(to right, var(--color-primary), var(--color-secondary));
+    background-clip: border-box;
+    -webkit-background-clip: text;
+    color: #fff;  /* Set text color to white */
+    -webkit-text-fill-color: white;  /* Ensure the text fill color is white */
+  }
+  
+  .button--secondary:hover {
+    background: linear-gradient(to right, var(--color-primary), var(--color-secondary));
+  }
+  
+  .button--secondary:hover > span {
+    -webkit-text-fill-color: #fff;
+  }
+  
+  .button--secondary:hover:before {
+    background: rgba(255, 255, 255, 0);
+  }
+  
+  .sign-up{
+    color:#fff;
+    transition:.2s;
+    text-decoration:none;
+  }
+
+  .sign-up:hover{
+    color:rgb(222, 222, 222);
+    transition:.2s;
+  }
+/*
+.objeto{
+    position:absolute;
+    z-index:-1;
+    margin:0; padding:0;
+    left:0;
+    padding-top:100px;
+    width:30%;
+    filter: opacity(0.2);
+    
+}
+    */
